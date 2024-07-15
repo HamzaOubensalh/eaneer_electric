@@ -1,0 +1,70 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.footer-style{
+    display: flex;
+    justify-content: space-between;
+    width: 68vw;
+    gap: 150px;
+}
+.First-Footer{
+    padding: 0;
+}
+.Content-Footer{
+    width: 21vw;
+}
+.Content-Footer p{
+    font-family: Libre Franklin;
+    font-size: 18px;
+    margin: 2px;
+    color: #CCD0CF;
+}
+
+.Second-Footer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 67px;
+}
+.Second-Footer ul{
+    margin-bottom: 10px;
+}
+.Second-Footer li{
+    list-style: none;
+}
+.Second-Footer li a{
+    text-decoration: none;
+}
+.table{
+    height: 134;
+}
+.Third-Footer{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    
+}
+.holder{
+    width: 68vw;
+    display: flex;
+    justify-content: space-between;
+}
+.holder .links{
+    display: flex;
+    gap: 29px;
+}
+.links a{
+    font-family: Source Code Pro;
+    font-size: 14px;
+    color: white;
+}
+.copyright p{
+    font-family: Source Code Pro;
+    font-size: 14px;
+}

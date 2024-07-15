@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+.container-style {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color:#06141B ;
+    padding:0;
+}
+
+body {
+        padding-top: 68px; /* Adjust this value based on the height of your header */
+    }
+
+
+.container-style2 {
+    display: flex;
+    justify-content: center;
+    width: 82vw;
+}
+
+.container-style div {
+    margin: 0px 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.collapse ul li{
+    margin: 10px;
+}
+.collapse a{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.ul-li ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px; /* Optional: gap between the list items */
+}
+
+.ul-li ul li {
+    position: relative;
+}
+
+.ul-li ul li a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.ul-li img {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.navbar {
+    background-color: #06141B !important;
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+    color: white !important; /* Set text color to white */
+}
+.nav-link{
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.active {
+    color: white !important; /* Keep text color white on hover, focus, and active */
+    background-color: transparent !important; /* Ensure background remains transparent */
+}
+
+.nav-item.dropdown .nav-link.active {
+    color: white !important; /* Ensure the text stays white */
+    background-color: transparent !important; /* Keep the background transparent */
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: white !important;
+    color: black !important;
+    text-decoration: none; /* Remove underline */
+}
+
+.dropdown-menu {
+    display: none; /* Hide initially */
+    opacity: 0; /* Set initial opacity */
+    transition: opacity 0.5s ease;
+    background-color: rgba(6, 20, 27, 0.5) !important; /* Semi-transparent background */
+    backdrop-filter: blur(20px);
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    height: auto; /* Adjust height */
+    padding: 10px !important;
+    margin: 0 !important;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    margin: 0 !important;
+}
+
+.nav-item.dropdown:hover .dropdown-menu,
+.nav-item.dropdown .dropdown-menu:hover 
+ {
+    display: block; /* Show dropdown */
+    opacity: 1; /* Set opacity to 1 */
+}
+
+.dropdown-menu .Main-dropdown {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px;
+}
+.Main-dropdown p{
+    font-family: Inter;
+    font-size: 14px;
+    color: #CCD0CF;
+}
+.Main-dropdown a{
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: bold;
+}
+.Main-dropdown1{
+    display: flex;
+}
+.Main-dropdown1 .Main-dropdown-pages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Main-dropdown-pages p{
+    color: white;
+}
+
+.Main-dropdown1 .Main-dropdown-Mobile{
+    border: 1px solid White;
+    border-radius:20px ;
+    padding: 60px;
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Main-dropdown-Mobile p{
+    font-family: Raleway;
+    font-size: 22.5px;
+    color: white;
+    font-weight: bolder;
+}
+.Main-dropdown-Mobile .app{
+    display: flex;
+}
+.Main-dropdown-Mobile .app-Button button{
+    width: 12vw;
+    border-radius: 20px;
+}
+.app p{
+    width: 100%;
+}
+.Main-dropdown2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.Main-dropdown2 ul li{
+    list-style-type: none;
+    color: white;
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 15px;
+}
+.Main-dropdown2 ul li:hover{
+    background-color: white !important;
+    color: black !important;
+    transition: 0.5s ease;
+}
+
+.dropdown-ul li{
+    font-size: 14px;
+    width: 160px;
+    padding: 19px 18px 22px 36px ;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.dropdown-menu a {
+    color: white !important;
+    text-decoration: none !important;
+    font-family: Raleway,SemiBold;
+    font-size: 14px;
+}
+.dropdown-menu .Main-dropdown a:hover {
+    color: black !important;
+}
+.dropdown-menu p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.Main-dropdown-pages div{
+    width: 10vw;
+    
+}
+
+.dropdown-menu a:hover {
+    color: white;
+}
+.Main-dropdown-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main-dropdown-content .services-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.services-content ul li{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 42px;
+    border: none;
+    font-family: Inter;
+    font-size: 14px;
+    width: 15vw;
+}
+.services-content ul li:hover{
+    background-color: rgba(6, 20, 27, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(20px);
+    color: white;
+}
+.nav-item {
+    margin: 15px;
+}
+.get-started {
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.Login a {
+    font-family: Raleway;
+    font-size: 14px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+.Login .first-a{
+    color: white;
+}
+.Login .get-started{
+    padding: 3px 15px 5px 10px;
+}
